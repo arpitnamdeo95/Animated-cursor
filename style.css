@@ -23,16 +23,16 @@ h1 {
 
 .cursor {
   width: 20px;
-  height: 20px;
+  height: 20px;     
   border-radius: 50%;
   background: skyblue;
-  pointer-events: none;
+  pointer-events: none;     
   box-shadow: 0 0 20px skyblue, 0 0 60px skyblue, 0 0 100px skyblue;
   z-index: 999;
-  display: none;
+  display: none; 
   position: fixed;
-  transform: translate(-50%, 50%);
-  animation: colors 3s infinite;
+  transform: translate(-50%, 50%); 
+  animation: colors 3s infinite; 
   -webkit-animation: colors 3s infinite;
 }
 
